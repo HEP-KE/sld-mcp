@@ -44,3 +44,4 @@ outputs/
 
 # Local backup files
 *.backup_*.py
+.ipynb_checkpoints
