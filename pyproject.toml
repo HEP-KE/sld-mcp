@@ -14,12 +14,14 @@ dependencies = [
   "numpy",
   "pandas",
   "matplotlib",
-  "jazelle",
-  "sld-resurrect",
+  "jazelle @ git+https://github.com/HEP-KE/jazelle_reader.git",
+  "sld-resurrect @ git+https://github.com/HEP-KE/sld-resurrect.git",
 ]
+
 
 [project.scripts]
 sld_mcp_server = "sld_mcp_server.server:main"
+
 
 [tool.setuptools]
 packages = ["sld_mcp_server"]
