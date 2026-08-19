@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sld-mcp-server"
+version = "0.1.0"
+description = "MCP server for public SLD data analysis and electroweak measurements"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "mcp",
+  "awkward",
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "jazelle",
+  "sld-resurrect",
+]
+
+[project.scripts]
+sld_mcp_server = "sld_mcp_server.server:main"
+
+[tool.setuptools]
+packages = ["sld_mcp_server"]

@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# Generated outputs
+output/
+outputs/
+
+# Generated artifacts
+*.png
+*.pdf
+*.csv
+*.json
+
+# Local backup files
+*.backup_*.py
